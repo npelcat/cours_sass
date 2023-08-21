@@ -1,0 +1,22 @@
+header {
+    margin-top: 40px;
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+
+        @media screen and (max-width: 700px) {
+            font-size: 2rem;
+        }
+
+        &::after {
+            content:"*";
+            position: absolute;
+            transform: translateY(-6px);
+            color: $color1;
+            transition: 0.4s;
+        }
+        &:hover::after {
+            transform: scale(2); /*scale = grossir un élément*/
+        }
+    }
+}

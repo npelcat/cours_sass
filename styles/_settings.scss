@@ -1,0 +1,15 @@
+$color1: pink;
+$color2: skyblue;
+$color3: rgb(248, 240, 201);
+$color4: rgb(242, 237, 237);
+$color5: rgb(13, 13, 13);
+
+@mixin centerChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: $color4;
+}

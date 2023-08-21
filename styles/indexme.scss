@@ -1,0 +1,26 @@
+//INDEX.SCSS rassemble TOUS les fichiers SASS ://
+
+// ATTENTION : importer les fichiers dans l'ordre : SETTINGS en premier, sinon erreur !
+
+@import "./settings";
+@import "./Layout/navbar";
+@import "./Layout/header";
+@import "./Layout/section";
+@import "./Layout/footer";
+@import "./components/buttons";
+@import "./components/caroussel";
+@import "./components/form";
+@import "./pages/about";
+@import "./pages/home";
+
+
+/*LES VARIABLES sont possibles sur les fonts family également.*/
+
+/*LES MIXINS : plus longues que les variables, permettent de donner à un éléments plusieurs caractéristiques*/ 
+
+// Lors de la création d'autres fichiers .SCSS, ne pas oublier le "underscore" : _ pour dire à LIVE SASS de ne pas tout compiler.
+// C'est l'Index.SCSS qui reliera tous les fichiers.
+
+// Le LAYOUT correspond à des éléments réutilisables sur plusieurs pages.
+
+// Tous les réglages de bases sont dans SETTINGS.SCSS : Variables, mixins, tous les titres, tous les composants, etc...
